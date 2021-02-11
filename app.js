@@ -1,8 +1,8 @@
 const express = require('express')
 const app = express()
-const rotaProdutos = require('./routes/produtos')
+const rotaProdutos = require('./routes/produto')
 
-app.use('/produtos',rotaProdutos)
+app.use('/produto',rotaProdutos)
 
 module.exports = app
 
